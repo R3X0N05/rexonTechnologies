@@ -1,0 +1,45 @@
+footer{
+    margin-top: 10vmax;
+    padding: 2vmax;
+    background-color: rgb(0, 0, 0);
+    color:antiquewhite;
+    display: flex;
+    align-items: center;
+}
+.leftFooter{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leftFooter > h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2vmax;
+    text-decoration: underline;
+}
+.leftFooter > a {
+    text-decoration: none;
+    font-size: 1.1vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite;
+    transition: all 0.5s;
+    margin: 0.5vmax;
+}
+.leftFooter > a:hover {
+    color:forestgreen;
+}
+
+.midFooter{
+    width: 60%;
+    text-align: center;
+}
+.midFooter > h1 {
+    font-size: 2vmax;
+    font-family:"Britannic Bold";
+    color:yellowgreen;
+}
+.midFooter > p {
+    max-width: 60%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1.2vmax auto;
+}

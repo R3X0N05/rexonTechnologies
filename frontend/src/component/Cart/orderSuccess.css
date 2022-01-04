@@ -1,0 +1,41 @@
+.orderSuccess{
+    margin: auto;
+    text-align: center;
+    padding: 10vmax;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.orderSuccess > svg{
+    font-size: 7vmax;
+    color: green;
+}
+.orderSuccess > p{
+    font-size: 2vmax;
+}
+.orderSuccess > a{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    border: none;
+    padding: 1vmax 3vmax;
+    cursor: pointer;
+    font: 400 1vmax "Daytona";
+    text-decoration: none;
+    margin: 2vmax;
+}
+@media screen and (max-width: 600px) {
+    .orderSuccess > a {
+      padding: 3vw 6vw;
+      font: 400 4vw "Daytona";
+      margin: 2vmax;
+    }
+    .orderSuccess > svg {
+      font-size: 20vw;
+    }
+    .orderSuccess > p {
+      margin: 2vmax;
+      font-size: 5vw;
+    }
+}
