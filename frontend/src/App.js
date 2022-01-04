@@ -47,6 +47,7 @@ import ProductReviews from "./component/Admin/ProductReviews";
 import NotFound from "./component/layout/Not Found/NotFound";
 import Contact from "./component/layout/Contact/Contact";
 import About from "./component/layout/About/About";
+import Chat  from "./component/Chat";
 
 
 function App (){
@@ -77,7 +78,7 @@ function App (){
     return (
       <Router>
         <Header />
-  
+        <Chat />
         {isAuthenticated && <UserOptions user={user} />}
   
         {stripeApiKey && (
