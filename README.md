@@ -1,3 +1,5 @@
+Project host link : https://final-project-rexontech.herokuapp.com/
+
 For Backend - npm i
 
 For Frontend - cd frontend npm i
